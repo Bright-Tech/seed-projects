@@ -1,4 +1,4 @@
-@extends('layout.main')
+@extends('layouts.main')
 @section('content')
     <div class="col-lg-12">
         <div class="text-center m-t-lg">

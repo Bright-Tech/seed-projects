@@ -16,6 +16,10 @@ Route::get('/', function () {
 });
 
 //后台
-Route::group(['prefix' => 'backend' , 'namespace' => 'Backend'], function() {
+Route::group(['prefix' => 'backend' , 'namespace' => 'Backend' , 'middleware' => 'auth'], function() {
     Route::get('/', 'DashboardController@index');
 });
+
+Auth::routes();
+
+
