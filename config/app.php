@@ -167,7 +167,7 @@ return [
          * Package Service Providers...
          */
 
-        //
+        bright_tech\laravel\inspinia\InspiniaServiceProvider::class,
 
         /*
          * Application Service Providers...

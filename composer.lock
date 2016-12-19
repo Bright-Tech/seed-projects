@@ -4,8 +4,91 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "76036da3b5b55b91dbe1e1affa01bf9e",
+    "content-hash": "cc0a34da9ccc43bd516060e44c12f6b5",
     "packages": [
+        {
+            "name": "bright-tech/inspinia-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://git.oschina.net/brightech/InspiniaAdmin",
+                "reference": "eb0f2e474e5be01f6a28e676ac9b793f94b087f6"
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "BrightTech",
+                    "email": "xiao.yanqi@bright-tech.cn"
+                }
+            ],
+            "description": "InspiniaAdmin - admin control panel and dashboard that's based on Bootstrap 3",
+            "homepage": "http://www.bright-tech.cn/",
+            "keywords": [
+                "admin",
+                "back-end",
+                "css",
+                "js",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "time": "2016-12-15 08:36:51"
+        },
+        {
+            "name": "bright-tech/inspinia-laravel-service",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Bright-Tech/inspinia-laravel-service.git",
+                "reference": "3e2dca84053db08f1a2d0a24f10ec1696322a124"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.phpcomposer.com/files/Bright-Tech/inspinia-laravel-service/3e2dca84053db08f1a2d0a24f10ec1696322a124.zip",
+                "reference": "3e2dca84053db08f1a2d0a24f10ec1696322a124",
+                "shasum": ""
+            },
+            "require": {
+                "bright-tech/inspinia-admin": "*",
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "bright_tech\\laravel\\inspinia\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "BrightTech",
+                    "email": "xiao.yanqi@bright-tech.cn"
+                }
+            ],
+            "description": "InspiniaAdmin For Laravel",
+            "homepage": "http://www.bright-tech.cn/",
+            "keywords": [
+                "JS",
+                "admin",
+                "back-end",
+                "css",
+                "less",
+                "responsive",
+                "template",
+                "theme",
+                "web"
+            ],
+            "time": "2016-12-16T09:53:45+00:00"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.1.0",
@@ -3449,7 +3532,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "bright-tech/inspinia-admin": 20,
+        "bright-tech/inspinia-laravel-service": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

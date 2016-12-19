@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//后台
+Route::group(['prefix' => 'backend' , 'namespace' => 'Backend'], function() {
+    Route::get('/', 'DashboardController@index');
+});
