@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.oschina.net/brightech/InspiniaAdmin",
-                "reference": "eb0f2e474e5be01f6a28e676ac9b793f94b087f6"
+                "reference": "b1431a30fab25d40401ee380c7dc56d30bfeeb80"
             },
             "type": "library",
             "license": [
@@ -37,7 +37,7 @@
                 "theme",
                 "web"
             ],
-            "time": "2016-12-15 08:36:51"
+            "time": "2016-12-19 03:33:55"
         },
         {
             "name": "bright-tech/inspinia-laravel-service",
@@ -45,12 +45,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Bright-Tech/inspinia-laravel-service.git",
-                "reference": "3e2dca84053db08f1a2d0a24f10ec1696322a124"
+                "reference": "7ad1698d2b385ce88f13b1b1103408f8c1a1bb32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.phpcomposer.com/files/Bright-Tech/inspinia-laravel-service/3e2dca84053db08f1a2d0a24f10ec1696322a124.zip",
-                "reference": "3e2dca84053db08f1a2d0a24f10ec1696322a124",
+                "url": "https://packagist.phpcomposer.com/files/Bright-Tech/inspinia-laravel-service/7ad1698d2b385ce88f13b1b1103408f8c1a1bb32.zip",
+                "reference": "7ad1698d2b385ce88f13b1b1103408f8c1a1bb32",
                 "shasum": ""
             },
             "require": {
@@ -87,7 +87,7 @@
                 "theme",
                 "web"
             ],
-            "time": "2016-12-16T09:53:45+00:00"
+            "time": "2016-12-19T03:43:25+00:00"
         },
         {
             "name": "classpreloader/classpreloader",

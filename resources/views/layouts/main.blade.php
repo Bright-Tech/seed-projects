@@ -8,11 +8,11 @@
 
     <title>崇光科技</title>
 
-    <link href="{{asset('vendor/inspinia/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('vendor/inspinia/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
+    <link href="{{asset('vendor/inspinia/Static_Seed_Project/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('vendor/inspinia/Static_Seed_Project/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
 
-    <link href="{{asset('vendor/inspinia/css/animate.css')}}" rel="stylesheet">
-    <link href="{{asset('vendor/inspinia/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('vendor/inspinia/Static_Seed_Project/css/animate.css')}}" rel="stylesheet">
+    <link href="{{asset('vendor/inspinia/Static_Seed_Project/css/style.css')}}" rel="stylesheet">
 
 </head>
 
@@ -168,14 +168,14 @@
 </div>
 
 <!-- Mainly scripts -->
-<script src="{{asset('vendor/inspinia/js/jquery-2.1.1.js')}}"></script>
-<script src="{{asset('vendor/inspinia/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('vendor/inspinia/js/plugins/metisMenu/jquery.metisMenu.js')}}"></script>
-<script src="{{asset('vendor/inspinia/js/plugins/slimscroll/jquery.slimscroll.min.js')}}"></script>
+<script src="{{asset('vendor/inspinia/Static_Seed_Project/js/jquery-2.1.1.js')}}"></script>
+<script src="{{asset('vendor/inspinia/Static_Seed_Project/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('vendor/inspinia/Static_Seed_Project/js/plugins/metisMenu/jquery.metisMenu.js')}}"></script>
+<script src="{{asset('vendor/inspinia/Static_Seed_Project/js/plugins/slimscroll/jquery.slimscroll.min.js')}}"></script>
 
 <!-- Custom and plugin javascript -->
-<script src="{{asset('vendor/inspinia/js/inspinia.js')}}"></script>
-<script src="{{asset('vendor/inspinia/js/plugins/pace/pace.min.js')}}"></script>
+<script src="{{asset('vendor/inspinia/Static_Seed_Project/js/inspinia.js')}}"></script>
+<script src="{{asset('vendor/inspinia/Static_Seed_Project/js/plugins/pace/pace.min.js')}}"></script>
 
 
 </body>
