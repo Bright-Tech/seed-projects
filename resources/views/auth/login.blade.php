@@ -4,32 +4,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>INSPINIA | Login</title>
+    <title>Login</title>
 
-    <link href="{{asset('vendor/inspinia/Static_Full_Version/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('vendor/inspinia/Static_Full_Version/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
-
-    <link href="{{asset('vendor/inspinia/Static_Full_Version/css/animate.css')}}" rel="stylesheet">
-    <link href="{{asset('vendor/inspinia/Static_Full_Version/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/app.css')}}" rel="stylesheet">
 </head>
 <body class="gray-bg">
 
 <div class="middle-box text-center loginscreen animated fadeInDown">
     <div>
-        <div>
-            <h1 class="logo-name">IN+</h1>
+        <div style="margin-top: 40%;">
+            <h2 class="">崇光内容管理系统</h2>
         </div>
 
-        <h3>Welcome to Bright-tech</h3>
+        <h3>Welcome to Bright-Tech CMS</h3>
 
-        <form class="m-t" role="form" method="POST" action="{{ url('/login') }}">
+        <form class="m-t" role="form" method="POST" action="{{ url('/admin/login') }}">
             {{ csrf_field() }}
 
-            <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" placeholder="Username" required autofocus>
-                @if ($errors->has('name'))
+            <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+                <input id="name" type="text" class="form-control" name="name" value="{{ old('username') }}" placeholder="Username" required autofocus>
+                @if ($errors->has('username'))
                     <span class="help-block">
-                        <strong>{{ $errors->first('name') }}</strong>
+                        <strong>{{ $errors->first('username') }}</strong>
                     </span>
                 @endif
             </div>
@@ -54,13 +50,12 @@
             </div>
             <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
         </form>
-        <p class="m-t"> <small>Inspinia we app framework base on Bootstrap 3 &copy; 2014</small> </p>
+        <p class="m-t"> <small>天津崇光科技有限公司 &copy; 2014</small> </p>
     </div>
 </div>
 
 <!-- Mainly scripts -->
-<script src="{{asset('vendor/inspinia/Static_Full_Version/js/jquery-2.1.1.js')}}"></script>
-<script src="{{asset('vendor/inspinia/Static_Full_Version/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('/js/app.js')}}"></script>
 
 </body>
 
